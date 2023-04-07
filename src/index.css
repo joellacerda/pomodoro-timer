@@ -1,0 +1,121 @@
+/* Main container */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+/* Break container */
+#break-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#break-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#break-controls {
+  display: flex;
+  align-items: center;
+}
+
+#break-length {
+  font-size: 36px;
+  margin: 0 20px;
+}
+
+button#break-decrement,
+button#break-increment {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button#break-decrement:hover,
+button#break-increment:hover {
+  color: #333;
+}
+
+/* Session container */
+#session-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#session-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#session-controls {
+  display: flex;
+  align-items: center;
+}
+
+#session-length {
+  font-size: 36px;
+  margin: 0 20px;
+}
+
+button#session-decrement,
+button#session-increment {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button#session-decrement:hover,
+button#session-increment:hover {
+  color: #333;
+}
+
+/* Timer container */
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#timer-label {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#time-left {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+/* Button container */
+#button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button#start_stop,
+button#reset {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button#start_stop:hover,
+button#reset:hover {
+  background-color: #555;
+}
